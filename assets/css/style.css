@@ -132,18 +132,17 @@ section {
 }
 /* Hero Style End */
 
-.intro {
-    text-align: center;
-}
 
 /* generic heading formatting begins */
 
 .section-title {
     font-size: 55px;    
-    display: inline-block;
-    padding: 0 100px 20px 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     border-bottom: 3px solid;
-    margin-bottom: 35px;
+    
     color: #024e76;
 }
 
@@ -190,12 +189,13 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /* "what-we-do" formatting ends */
 
 /* "what-you-do" formatting begins */
 .steps {
-    text-align: center;
+    
     background: #fce138;
 }
 
@@ -203,7 +203,7 @@ section {
 
 /* "meet the trainers" formatting begins */
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -250,7 +250,7 @@ section {
 
 /* Reach Out Styles Start */
 .contact {
-    text-align: center;
+    
     background: #024e76;
 }
 
@@ -291,4 +291,7 @@ section {
     color: #fce138;
 }
 
+.flex-row {
+    display: flex;
+}
 /* Reach Out Styles End */
